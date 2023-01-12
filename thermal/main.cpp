@@ -55,8 +55,6 @@ int main(int /* argc */, char** /* argv */) {
 
     LOG(INFO) << "Thermal Service started successfully.";
 
-    auto clientThread = service->run();
-
     joinRpcThreadpool();
     // We should not get past the joinRpcThreadpool().
     return shutdown();
