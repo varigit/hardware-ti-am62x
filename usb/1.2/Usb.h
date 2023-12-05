@@ -4,6 +4,7 @@
 #include <android/hardware/usb/1.2/IUsb.h>
 #include <android/hardware/usb/1.2/IUsbCallback.h>
 #include <android/hardware/usb/1.2/types.h>
+#include <cutils/properties.h>
 #include <hidl/Status.h>
 #include <utils/Log.h>
 
